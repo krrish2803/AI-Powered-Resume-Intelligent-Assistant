@@ -18,7 +18,7 @@ st.markdown('<div class="title">📄 AI-Powered Resume & Interview Assistant</di
 st.sidebar.title("Navigation")
 task = st.sidebar.radio("Select Feature", ["Generate Resume", "Generate Cover Letter", "Mock Interview", "Job Fit Analyzer"])
 
-API_URL = "http://localhost:8000"
+API_URL = "https://ai-powered-resume-intelligent-assistant.onrender.com"
 
 if task == "Generate Resume":
     st.markdown('<div class="subtitle">✍️ Resume Generator</div>', unsafe_allow_html=True)
