@@ -4,4 +4,5 @@ python-docx
 pydantic
 streamlit
 requests
-groq  # or use openai if using OpenAI-compatible client
+groq  
+dotenv
